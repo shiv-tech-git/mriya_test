@@ -33,5 +33,4 @@ def listen_and_log():
     rospy.spin()
 
 if __name__ == '__main__':
-    log("Start node")
     listen_and_log()
