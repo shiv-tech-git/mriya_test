@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="http_endpoint" type="http_endpoint.py" name="http_endpoint_1">
+    </node>
+    <node pkg="logger" type="logger.py" name="logger_1">
+    </node>
+</launch>
